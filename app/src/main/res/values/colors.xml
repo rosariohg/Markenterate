@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPres">#F44336</color>
+    <color name="colorMision">#EF9A9A</color>
+    <color name="colorVision">#E57373</color>
+    <color name="colorValEt">#9C27B0</color>
+    <color name="colorCampOc">#4CAF50</color>
+    <color name="colorPerEst">#2196F3</color>
+    <color name="colorAut">#009688</color>
+    <color name="colorDoc">#FF9800</color>
+    <color name="colorAct">#607D8B</color>
+    <color name="colorUltRank">#9E9E9E</color>
+    <color name="colorLetra">#eee</color>
+</resources>
+

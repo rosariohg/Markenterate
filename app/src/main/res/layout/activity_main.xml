@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnPresentacion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PRESENTACIÓN"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorPres"
+        android:textColor="@color/colorLetra"
+        android:onClick="clicPresentacion" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/Linear1"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnMision"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MISIÓN"
+            android:textSize="@dimen/tamano"
+            android:textStyle="bold"
+            android:background="@color/colorMision"
+            android:textColor="@color/colorLetra" />
+
+        <Button
+            android:id="@+id/btnVision"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="VISIÓN"
+            android:textSize="@dimen/tamano"
+            android:textStyle="bold"
+            android:background="@color/colorVision"
+            android:textColor="@color/colorLetra" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnValoresEticos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="VALORES ÉTICOS"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorValEt"
+        android:textColor="@color/colorLetra" />
+
+    <Button
+        android:id="@+id/btnCampoOcupacional"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CAMPO OCUPACIONAL"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorCampOc"
+        android:textColor="@color/colorLetra" />
+
+    <Button
+        android:id="@+id/btnPerfilEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PERFIL ESTUDIANTE"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorPerEst"
+        android:textColor="@color/colorLetra" />
+
+    <Button
+        android:id="@+id/btnAutoridades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="AUTORIDADES"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorAut"
+        android:textColor="@color/colorLetra" />
+
+    <Button
+        android:id="@+id/btnDocentes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="DOCENTES"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorDoc"
+        android:textColor="@color/colorLetra" />
+
+    <Button
+        android:id="@+id/btnActividades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ACTIVIDADES"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorAct"
+        android:textColor="@color/colorLetra" />
+
+    <Button
+        android:id="@+id/btnUltimoRanking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ÚLTIMO RANKING"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/tamano"
+        android:textStyle="bold"
+        android:background="@color/colorUltRank"
+        android:textColor="@color/colorLetra" />
+</LinearLayout>
+</ScrollView>

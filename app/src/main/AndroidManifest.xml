@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.debugcc.markenterate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Inicio"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            ></activity>
+        <activity
+            android:name=".Presentacion"
+            android:label="@string/app_presentacion"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Mision"
+            android:label="@string/app_mision"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Vision"
+            android:label="@string/app_vision"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ValorEtico"
+            android:label="@string/app_valEt"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CampoOc"
+            android:label="@string/app_campOcu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PerfilEstudiante"
+            android:label="@string/app_perfilEst"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Autoridades"
+            android:label="@string/app_autoridades"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Docentes"
+            android:label="@string/app_docentes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Actividades"
+            android:label="@string/app_activ"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UltimoRanking"
+            android:label="@string/app_ultRa"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+
+</manifest>

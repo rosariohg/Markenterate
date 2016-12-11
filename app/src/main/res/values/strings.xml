@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Markenterate</string>
+    <string name="app_presentacion">Presentación</string>
+    <string name="app_mision">Misión</string>
+    <string name="app_vision">Visión</string>
+    <string name="app_valEt">Valores Éticos</string>
+    <string name="app_campOcu">Campo Ocupacional</string>
+    <string name="app_perfilEst">Perfil Estudiantes</string>
+    <string name="app_autoridades">Autoridades</string>
+    <string name="app_docentes">Docentes</string>
+    <string name="app_activ">Actividades</string>
+    <string name="app_ultRa">Último Ranking</string>
+    <string name="title_activity_inicio">Inicio</string>
+</resources>
